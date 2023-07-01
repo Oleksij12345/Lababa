@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+<!--     
+    Ілля:
+    Зараз ходить: Компютер
+    
+    Олексій:
+    Зараз ходить: Ти
+    
+    Антон:
+    Ви виграли!
+    
+    Ксенія:
+    Ви програли! -->
+    
+    <div class="game">
+      <table class="my-table"></table>
+
+      <table class="friend-table"></table>
+ 
+  <div id="aa" class="aa"></div>
+
+
+      <div class="ships">
+        <div class="ship ship1" id="drag1" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="ship ship1" id="drag2" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="ship ship1" id="drag3" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="ship ship1" id="drag4" draggable="true" ondragstart="drag(event)" ></div>
+
+        <div class="ship ship2" id="drag5" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="ship ship2" id="drag6" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="ship ship2" id="drag7" draggable="true" ondragstart="drag(event)" ></div>
+
+        <div class="ship ship3" id="drag8" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="ship ship3" id="drag9" draggable="true" ondragstart="drag(event)" ></div>
+
+        <div class="ship ship4" id="drag10" draggable="true" ondragstart="drag(event)" ></div>
+      </div>
+
+    </div>
+    
+    <div class="result">
+      <img class="shipsDestruction" src="https://s3-alpha-sig.figma.com/img/98c3/8302/f3c5422b3297efa74deb4fe8b93e493f?Expires=1685318400&Signature=Nm2RF5ADOlHB6R~weDEJVQOQ1E1-7lf7TO1oe1SGvsgYYZx-Ob8i2aWfz9ZQVru~MVU5zcsa77Efalw1R2ajpZ-Y0wq9CLK2ZSkzpPhbbJBJ1wpVNwMgbwyFYx1e36Wo1LrrpTQENYQy4aYn2bJYOZdc0cwWA-6xI1lVn1ptl4iaQQffVS--PxLNazBIHHeOk6reny0nwTTq0Mr6HUzLXuAurZcGgDdzL7Zs73Gw-bNNXRmxMzHC8PM4i6TfD3aI8ppeznYS3UgMaZKva3py2cJl0V4VbBUG2FbMr7Vk8oDvCwy6wRVteE2fJxWQHkx5Ml6XDTuGOjV-l3ConNI90Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="">
+      <h2 class="counter"><span id="counter__text">0</span>  <span class="counter__info">/11</span> </h2>
+    </div>
+    
+    
+    <div class="modal">
+      <h0>Ви виграли!</h0>
+    </div>
+   
+    
+    
+
+    <script src="main.js"></script>
+  </body>
+</html>
